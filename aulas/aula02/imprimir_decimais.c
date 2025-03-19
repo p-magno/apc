@@ -2,7 +2,7 @@
 
 int main() {
    
-    printf("%.2f" 8.5)
+    printf("%.2f"); 8.5;
 
     return 0;
 }

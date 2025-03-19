@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(){
 
 
     printf("Bem-vindo à disciplina de APC I!");;
