@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
 int numero = 0;
+float media = 0;
 
 printf("Digite um numero inteiro: ");
 scanf("%i", &numero);
@@ -15,13 +16,14 @@ if (numero_eh_divisivel_por_2) {
 int idade = 0;
 printf ("Digite a sua idade: ");
 scanf ("%i", &idade);
-
 if (idade < 16) {
-    printf("Voce nao pode votar!\n");
-}else {
-    if (idade < 18 || idade > 70) {
+    if (idade < 18 && idade > 70) { // ao invés de usar ||, usar &&
+        printf("Voce nao pode votar!\n");
+    }else {
         printf ("Voce pode votar!\n");
     }
+} else {
+    printf("Voce nao pode votar");
 }
 
     return 0;
