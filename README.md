@@ -1,4 +1,4 @@
-# apc# 
+d# apc# 
 Algoritmos e Programação de Computadores I
 
 Repositório criado para as aulas teóricas e atividades práticas da disciplina.
