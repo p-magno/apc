@@ -66,8 +66,8 @@ int main() {
         return 1;
     }
     
-    mostrarTabelaAdicao(n);
-    mostrarTabelaMultiplicacao(n);
+    TabelaAdicao(n);
+    TabelaMultiplicacao(n);
     
     printf("\nObrigado!\n");
     return 0;
